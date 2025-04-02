@@ -1,6 +1,6 @@
 # C++ Digital Rain Project
 
-This is a **Digital Rain** project that uses random characters to simulate cascading code **modern C++**.
+This project uses random characters to simulate **Digital Rain** effect using **modern C++**.
 
 ## Get Started
 
