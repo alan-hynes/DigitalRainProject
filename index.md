@@ -97,7 +97,11 @@ With this approach, the animation runs at a consistent speed regardless of how q
 ## Modern C++ Insight & Reflection
 
 ### Smart Random Number Generation
-qwerty
+Instead of using the older C-style rand() function, I used C++11's random number generation:
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/SmartNumberGen.png?raw=true" alt="Smart Number Generation" width="400"/>
+
+This provides better statistical properties and more control.
 
 ## Terminal Running
 <img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/DigitalRainGif.gif?raw=true" alt="Digital Rain Animation" width="600"/>
