@@ -86,6 +86,17 @@ To solve this I:
 <img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/ConsoleRenderingChallenge.png?raw=true" alt="Console Rendering Challenges" width="400"/>
 
 ### Performance Optimisation
+I needed to optimise the rendering loop to maintain smooth animation. I implemented frame rate control to ensure that the animation speed was consistent:
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/PerformanceOptimisation.png?raw=true" alt="Performance Optimisation" width="400"/>
+
+With this approach, the animation runs at a consistent speed regardless of how quickly the update and render operations complete.
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/FPSTerminal.png?raw=true" alt="FPS on Terminal" width="400"/>
+
+## Modern C++ Insight & Reflection
+
+### Smart Random Number Generation
 qwerty
 
 ## Terminal Running
