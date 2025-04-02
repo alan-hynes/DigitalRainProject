@@ -103,6 +103,25 @@ Instead of using the older C-style rand() function, I used C++11's random number
 
 This provides better statistical properties and more control.
 
+### Chrono Library for Timing
+
+For the FPS calculation, I used the `<chrono>` library instead of timing functions:
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/FPSCalc.png?raw=true" alt="FPS Calculation" width="400"/>
+
+This makes the code more portable and safe for time units.
+
+### Range-based For Loops
+
+I used range-based for loops introduced in C++11:
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/RangebasedForLoops.png?raw=true" alt="Range-based For Loops" width="400"/>
+
+This syntax is more concise and less prone to errors than traditional loops.
+
+### Final Reflections
+qwerty
+
 ## Terminal Running
 <img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/DigitalRainGif.gif?raw=true" alt="Digital Rain Animation" width="600"/>
 
