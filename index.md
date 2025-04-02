@@ -75,6 +75,17 @@ Here is the terminal showing the brightness levels:
 ## Problem-solving
 
 ### Console Rendering Challenges
+It was challenging to render Unicode characters in the Windows console. I needed to ensure the characters displayed properly while maintaining good performance.
+
+To solve this I:
+
+1. Used the Windows Console API directly through the `TerminalInterface` class
+2. Set the console to use UTF-8 encoding
+3. Implemented cursor movement and character rendering
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/ConsoleRenderingChallenge.png?raw=true" alt="Console Rendering Challenges" width="400"/>
+
+### Performance Optimisation
 qwerty
 
 ## Terminal Running
