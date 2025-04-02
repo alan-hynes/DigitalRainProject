@@ -1,28 +1,33 @@
----
-layout: post
-title: A Project in Modern C++
-tags: cpp coding project
-categories: demo
----
+# C++ Digital Rain Project
 
-This is my first paragraph...
+This is a **Digital Rain** project that uses random characters to simulate cascading code **modern C++**.
 
-## This is a Heading
+## Get Started
 
-This is a paragraph. Add an empty line to start a new paragraph.
+### Requirements
 
-Font can be *Italic* or **Bold**.
+Microsoft Visual Studio 2022
 
-Code can be highlighted with 'backticks'.
+### Installation
 
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
+1. Clone the repository
 
-A bullet list:
+2. Open the project in Microsoft Visual Studio 2022
 
-- vectors
-- algorithms
-- iterators
+3. Build and run the project
 
-You can add an image that has been uploaded to the repository in a /docs/assets/images folder.
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/DigitalRainGif.gif?raw=true" alt="Digital Rain Animation" width="600"/>
 
-<img src="https://raw.githubusercontent.com/melgineer/digital-rain-test-cpp/main/docs/assets/images/DigitalRainDev1.png" width="400" height="300">
+## Interactive Controls
+
+While the Digital Rain animation is running, you can use the following keyboard controls to interact with and customize the effect:
+
+| **Key**            | **Action**                                                                 |
+|---------------------|---------------------------------------------------------------------------|
+| `ESC`              | Quit application                                                     |
+| `C` or `c`         | Change Colour                                     |
+| `+`                | Increase density                                   |
+| `-`                | Decrease density                                  |
+| `S` or `s`         | Toggle stats                |
+| `A` or `a`         | Cycle through character sets|
+| `P` or `p`         | Pause/resume animation                                            |
