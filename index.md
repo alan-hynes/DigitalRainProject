@@ -39,7 +39,46 @@ I performed unit tests for the MatrixColumn class to ensure its core functionali
 
 These tests make sure each columns are created and updated correctly and produce the right brightness values.
 
+## Algorithm
+
+### Character Generation and Movement
+
+The main algorithm of the Digital Rain effect involves generating random characters and creating the illusion of movement. Each column works independently, with characters falling at different speeds.
+
+The `MatrixColumn` class manages this behaviour:
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/MatrixColumnClass.png" alt="Matrix Column Class" width="400"/>
+
+This algorithm:
+1. Adds a new random character to the end of the column
+2. Removes the oldest character if the column exceeds its maximum length
+3. Updates the "head" position to create the illusion of movement
+
+### Random Character Generation
+
+To create different patterns, I used multiple character sets:
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/RandomCharacterGeneration.png" alt="Random Number Generation" width="400"/>
+
+This function uses C++11's random number generation to create different types of characters based on the selected character set (Katakana, Latin, Symbols).
+
+### Visual Effects
+
+To create the "trailing" effect, I implemented a brightness system where characters have different brightness levels based on their position relative to the "head":
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/Brightness.png" alt="Brightness" width="400"/>
+
+Here is the terminal showing the brightness levels:
+
+<img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/BrightnessTerminal.png" alt="Brightness Terminal" width="400"/>
+
+## Problem-solving
+
+### Console Rendering Challenges
+qwerty
+
 ## Terminal Running
 <img src="https://github.com/alan-hynes/DigitalRainProject/blob/main/docs/assets/images/DigitalRainGif.gif?raw=true" alt="Digital Rain Animation" width="600"/>
+
 
  
